@@ -29,7 +29,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://mern-ecommerce-2024-bowp.onrender.com",
+    // origin: "https://mern-ecommerce-2024-bowp.onrender.com",
+    origin: "http://localhost:5173/",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
